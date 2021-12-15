@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div  class=" dd " id="dd">
+        <label class="custom-field">
+        <span class= "placeholder" > Введите первое значение</span>
+        <input class=" sss " id="num1" />
+     </label>
+        
+
+	<div id="operator_btns">
+	  <button class=" vv " id="plus" onclick="op='+'" >+</button>
+	  <button class=" vv " id="minus" onclick="op='-'" >-</button>
+	  <button class=" vv " id="times"  onclick="op='*'">x</button>
+	  <button class=" vv " id="divide"  onclick="op='/'">:</button>
+	</div>
+
+	<div  class=" dd " id="dd">
+        <label class="custom-field">
+        <span class= "placeholder" > Введите второе значение</span>
+        <input class=" sss " id="num2" />
+     </label>
+	<br>
+	
+	<button onclick="func()" class=" vv " >Посчитать</button>
+    </div>
+    <p id="result"></p>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
